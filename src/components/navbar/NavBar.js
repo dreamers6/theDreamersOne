@@ -21,7 +21,7 @@ function NavBar() {
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
             <ul className="me-0 navbar-nav">
-                <NavLink to="/">Ayoub</NavLink>
+                <NavLink to="/">Anass</NavLink>
                 <NavLink to="/services">Services<i class="fa-solid fa-plus"></i>
                 <div className="inside">
                     <NavLink to="#home"><span>Service</span></NavLink>
