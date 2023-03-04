@@ -1,0 +1,22 @@
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.footer-area{
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color : #565acf ;
+  --main-color-2 : #1f2278 ;
+  --secondary-color : #f17732 ;
+  --main-color-hover: #494db0 ;
+}
+
+a{
+  text-decoration: none !important;
+}

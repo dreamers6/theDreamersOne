@@ -1,0 +1,229 @@
+@media ( min-width: 768px ) {
+    .container-fluid {
+        padding: 0px 30px !important;
+    }
+
+    .search a {
+        display: none;
+    }
+}
+
+
+ul .active {
+    color: var(--secondary-color) !important;
+}
+
+@media (min-width: 0) and (max-width: 991.9px) {
+    .search a {
+        color: var(--main-color-2);
+        font-size: 20px;
+        padding: 10px 15px !important;
+        cursor: pointer;
+        font-weight: 600;
+        position: relative;
+        border-width: 0 0 0 1px;
+        line-height: 1;
+        display: block;
+    }
+
+    .navbar-nav a:nth-of-type(5) , 
+    .navbar-nav a:nth-of-type(7) {
+        display: none;
+    }
+}
+
+.navbar-brand {
+    margin-left: -2px !important;
+}
+
+.navbar-nav {
+    display: flex !important ;
+    align-items: center !important ;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-nav {
+    height: calc(101vh - 76px);
+}
+
+.btn-primary {
+    background-color: #565acf !important ;
+    padding-top: -5px ;
+    box-shadow: 0 5px 20px 0 rgba(86,90,207,.3)!important;
+    padding: 15px 30px !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    transition: all .5s !important;
+    border-width: 2px !important;
+    line-height: 1.2 !important;
+    color: #fff !important;
+    border-color: var(--main-color) !important;
+    width: 188px !important;
+    height: 50px ;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-family: 'Montserrat', sans-serif !important;
+    transition: 0.5s !important ;
+}
+
+.btn-primary i {
+    width: 40px !important;
+    height: 40px !important;
+    background: #fff !important;
+    border-radius: inherit !important;
+    line-height: 40px !important ;
+    display: inline-block !important;
+    color: var(--main-color);
+    margin-right: -27px ;
+    font-size: 12px;
+    font-style: bold;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: var(--main-color-hover) !important;
+    border-color: var(--main-color-hover)  !important;
+}
+
+.navbar-nav > a {
+    color: var(--main-color-2) ;
+    font-size: 17px;
+    padding: 30px 20px 30px 20px !important;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    border-width: 0 0 0 1px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.navbar-nav > a:nth-of-type(1):hover ,
+.navbar-nav > a:nth-of-type(2):hover ,
+.navbar-nav > a:nth-of-type(3):hover ,
+.navbar-nav > a:nth-of-type(4):hover {
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav > a:nth-of-type(1):hover .fa-plus ,
+.navbar-nav > a:nth-of-type(2):hover .fa-plus ,
+.navbar-nav > a:nth-of-type(3):hover .fa-plus ,
+.navbar-nav > a:nth-of-type(4):hover .fa-plus {
+    color: var(--secondary-color) !important;
+}
+
+.navbar-nav > a:nth-of-type(7) {
+    padding: 30px 0px 30px 20px !important;
+}
+
+@media ( max-width: 1400px ) {
+    .navbar-nav > a:nth-of-type(6) {
+        display: none !important;
+    }
+}
+
+.navbar-nav a:nth-of-type(6) {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1f2278;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav a:nth-of-type(6) i {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    background-color: rgba(86,90,207,.1);
+    font-size: 18px;
+    border-radius: 8px;
+    color: #565acf;
+    margin-right: 15px;
+}
+
+.collapse {
+    flex-direction: row-reverse;
+}
+
+.search {
+    display: flex;
+    flex-direction: row-reverse ;
+}
+
+.fa-plus {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: -3px;
+    vertical-align: middle;
+    color: #9999a7;
+    transition: all .5s;
+    font-weight: 900 ;
+}
+
+.navbar-nav a:hover .fa-plus {
+    transform: rotate(45deg);
+}
+
+.inside {
+    background-color: #fff;
+    left: 6px;
+    top: 100px;
+    display: block;
+    opacity: 0;
+    padding: 5px 0;
+    position: absolute;
+    visibility: hidden;
+    width: 220px;
+    z-index: 1;
+    margin-top: 20px;
+    box-shadow: 0 1px 40px 0 rgb(0 0 0 / 10%);
+    transition: .8s;
+}
+
+.navbar-nav a:hover .inside {
+    top: 62px;
+    opacity: 1;
+    position: absolute;
+    visibility: visible;
+}
+
+.inside a {
+    color: #666 !important;
+    display: block;
+    font-size: 16px;
+    padding: 14px 0px 14px 15px !important;
+    text-transform: capitalize;
+    position: relative;
+    transition: all .15s linear;
+    font-weight: 500;
+    text-decoration: none ;
+    width: 100%;
+}
+
+.inside a:hover {
+    color: var(--main-color) !important;
+}
+
+.inside a span {
+    position: relative;
+}
+
+.inside a span::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    width: 0;
+    height: 1.5px;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+.inside a:hover span::after {
+    width: 102%;
+}
