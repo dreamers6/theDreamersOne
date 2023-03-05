@@ -5,11 +5,11 @@ import { Twitter} from 'react-feather'
 import { Linkedin } from 'react-feather'
 import { Instagram } from 'react-feather'
 import { Link } from 'react-router-dom'
-import circleImage from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/Components/ContactUs/imgs/circle-dots.png'
-import plusImage from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/Components/ContactUs/imgs/plus-blue.png'
-import phone from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/Components/ContactUs/imgs/phone.png'
-import mail from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/Components/ContactUs/imgs/mail.png'
-import map from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/Components/ContactUs/imgs/map.png'
+import circleImage from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/components/ContactUs/imgs/circle-dots.png'
+import plusImage from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/components/ContactUs/imgs/plus-blue.png'
+import phone from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/components/ContactUs/imgs/phone.png'
+import mail from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/components/ContactUs/imgs/mail.png'
+import map from 'C:/Users/asus/Desktop/Work/theDreamersOne/src/components/ContactUs/imgs/map.png'
 import styled from 'styled-components';
 
 export default function ContactUs()  {

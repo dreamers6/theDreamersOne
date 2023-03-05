@@ -15,15 +15,14 @@ import Header from './components/header/Header';
 
 import NavbarMobile from './components/navbar/NavbarMobile';
 
+import ContactUs from "./components/ContactUs/ContactUs.js"
 function App() {
     return (
         <BrowserRouter>
             <Routes>
                     <Route exact path="/" element={<Home/>} />
-                    <Route exact path="/" element={<Home/>} />
-
-
                     <Route path="/header" element={<Header />} />
+                    <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<NavbarMobile />} />
             </Routes>          
     </BrowserRouter>

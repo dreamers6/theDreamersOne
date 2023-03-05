@@ -119,7 +119,7 @@
 }
 .second-section::before {
     content: "";
-    background-image: url(/src/Components/ContactUs/imgs/shape.png);
+    background-image: url(/src/components/ContactUs/imgs/shape.png);
     /* background-size: cover; */
     background-repeat: no-repeat;
     /* background-position: 220%; */
