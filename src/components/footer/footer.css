@@ -1,0 +1,232 @@
+.footer-area{
+    background-image: url('/public/images/footer_background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    margin-top: 90px !important;
+}
+
+.footer-area::after{
+    content: '';
+    background-image: url('/public/images/footer-shape.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-top{
+    padding-top: 150px;
+}
+
+.footer-contact p{
+    color: #707077;
+    font-size: 1.1rem;
+}
+
+.contact-icon{
+    background-color: rgb(240, 110, 63);
+    width: 3.4rem;
+    height: 3.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0 50%;
+}
+
+.contact-icon i{
+    color: var(--wihte);
+    font-size: 1.4rem;
+}
+
+.contact-number {
+    width: 70%;
+}
+
+.contact-number p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--orange);
+    margin-bottom: 0 !important;
+}
+
+.contact-number h4{
+    margin-bottom: 0 !important;
+    color: #1f2278;
+}
+
+.col-title{
+    color: var(--link-tittle);
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+}
+
+.col-title::after{
+    position: absolute;
+    content: '';
+    background-image: url('/public/images/footer-line.png');
+    background-position: center;
+    bottom: 0;
+    left: 0;
+    width: 85px;
+    height: 7px;
+    z-index: 999;
+}
+
+.second-col ul li a,.third-col ul li a{
+    font-size: 1rem;
+    color: var(--gray);
+    text-decoration: none !important;
+    font-size: 500;
+    line-height: 15px;
+}
+
+.second-col ul li a:hover,.third-col ul li a:hover{
+    color: var(--link-hover);
+}
+
+
+.second-col{
+    margin-left: 50px;
+}
+
+.inputs{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.inputs input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 0.675rem;
+    outline: none;
+    border:none ;
+    box-shadow: 0px 10px 60px 0px rgb(31 34 120 / 10%);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.inputs input:hover{
+    outline: 1.5px solid #dcdcf3 !important;
+    color: #444;
+    background: #ffffff;
+
+}
+
+.inputs input:focus{
+    outline: 1.5px solid #9b9bf5 !important;
+}
+
+.subscribe{
+    width: 100%;
+    background-color: var(--orange) !important;
+    color: var(--wihte) !important;
+    transition: all .3s ease;
+    box-shadow: 0px 5px 20px 0px rgb(241 119 50 / 40%) !important;
+}
+
+
+.subscribe:hover{
+    background-color: #f58a4c !important;
+}
+@media (max-width: 991px) {
+    .second-col{
+        margin-left: 0 !important;
+    }
+}
+
+.footer-social-link ul li{
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+.line{
+    width: 100% ;
+    height: 1px ;
+    background-color: #c2c2c5 ;
+    margin-bottom: 10px;
+    border-radius: 28px !important;
+    margin-top: 1.5rem !important;
+}
+
+
+.crator{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(66, 65, 65);
+}
+
+.crator a{
+    color: var(--orange);
+    text-decoration: none;
+}
+.crator a:hover{
+    color: var(--orange);
+}
+
+.footer-animation{
+    position: absolute;
+
+}
+
+#pic1{
+    bottom: 50px;
+    left: 80px;
+    width: 90px;
+    z-index: -1;
+    animation: cyrcle 4s infinite ease;
+}
+
+#pic2{
+    bottom: 3rem;
+    right: 30px;
+    width: 100px;
+    animation: wave2 4s infinite linear;
+}
+
+#pic3{
+    top: 35%;
+    right: 60px;
+    z-index: -1;
+    animation: plus 12s infinite linear;
+}
+
+#pic4{
+    top: 50px;
+    left: 60px;
+    z-index: 1;
+    width: 100px;
+    animation: wave4 8s infinite linear;
+}
+
+@keyframes plus{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes cyrcle{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes wave2{
+    0%{transform: translateX(0%);}
+    50%{transform: translateX(-40px);}
+    100%{transform: translateX(0);}
+}
+
+@keyframes wave4{
+    0%{transform: translateX(0%);}
+    33.3%{transform: translateX(-30px);}
+    67%{transform: translateX(30px);}
+    100%{transform: translateX(0);}
+}

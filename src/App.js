@@ -1,21 +1,17 @@
 import './App.css';
 
-// import Footer from './Components/footer/Footer.js';
-// import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-// import ContactUs from './Components/ContactUs/ContactUs';
-// import '@fortawesome/fontawesome-svg-core/styles.css';
+import Footer from './components/footer/Footer.js';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import ContactUs from './components/ContactUs/ContactUs'
 
-// import Footer from './components/footer/Footer.js';
-// import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home.js';
-// import NavBar from './components/navbar/NavBar.js';
+import NavBar from './components/navbar/NavBar.js';
 
 import Header from './components/header/Header';
 
 import NavbarMobile from './components/navbar/NavbarMobile';
 
-import ContactUs from "./components/ContactUs/ContactUs.js"
 function App() {
     return (
         <BrowserRouter>
@@ -24,7 +20,8 @@ function App() {
                     <Route path="/header" element={<Header />} />
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<NavbarMobile />} />
-            </Routes>          
+            </Routes>    
+            <Footer />      
     </BrowserRouter>
     );
 }
