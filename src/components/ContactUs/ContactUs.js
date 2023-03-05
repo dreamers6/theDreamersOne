@@ -30,9 +30,9 @@ export default function ContactUs()  {
            <div className="container router">
               <h1 className='main-heading'>Contact Us</h1>
               <ul className="router-list">
-                <li><Link to='/' className='home'><Home />   Home </Link></li>
+                <li><Link to='/' className='home'><Home />Home</Link></li>
                 <li>/</li>
-                <li>Contact Us</li>
+                <li><Link to='/ContactUs' className='home'>Contact Us</Link></li>
               </ul>          
           </div>
           </div>
@@ -46,7 +46,7 @@ export default function ContactUs()  {
           
           <div className="container container-md custom-container d-flex  justify-content-evenly contact-form">
   <div className="row section-row mx-auto">
-    <div className="col-lg-6 col-md-6 col-sm-12 form-col">
+    <div className="col-lg-5 col-md-12 col-sm-11 form-col">
       <form>
         <div className="row">
           <div class="col-md-6 mb-3">
@@ -81,7 +81,7 @@ export default function ContactUs()  {
         </div>
       </form>
     </div>
-    <div className="col-lg-6 col-md-6 col-sm-12 float-right image-side" >
+    <div className="col-lg-5 col-md-11 col-sm-11 float-right image-side" >
                 <div className='img-overlay'></div>
                          <div className='infos' >
                              <Title className='img-heading' >Contact Us For Any Informations</Title> 
@@ -105,7 +105,7 @@ export default function ContactUs()  {
           {/* Start of the sub section */}
                  
                      
-                      <div className=' container sub-section'>  
+                      {/* <div className=' container sub-section'>  
                          <div className='cards'>
                              <div className="row mx-auto">
                              
@@ -152,7 +152,7 @@ export default function ContactUs()  {
                              
                               
                            </div> 
-                        </div> 
+                        </div>  */}
                         
 
                              

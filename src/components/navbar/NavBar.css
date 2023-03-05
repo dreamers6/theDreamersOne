@@ -92,7 +92,7 @@ ul .active {
 .navbar-nav > a {
     color: var(--main-color-2) ;
     font-size: 17px;
-    padding: 30px 20px 30px 20px !important;
+    padding: 35px 20px 35px 20px !important;
     cursor: pointer;
     font-weight: 600;
     display: inline-block;
@@ -186,7 +186,7 @@ ul .active {
 }
 
 .navbar-nav a:hover .inside {
-    top: 62px;
+    top: 67px;
     opacity: 1;
     position: absolute;
     visibility: visible;

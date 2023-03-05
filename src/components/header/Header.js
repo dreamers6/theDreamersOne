@@ -12,7 +12,6 @@ import atawich5 from "../../images/imgs-ayoub/atawich-05.png";
 export default function Header() {
     return (
         <header>
-            {/* <NavBar /> */}
             <section>
                 <div class="container text-center">
                     <div class="row">
