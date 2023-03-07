@@ -114,7 +114,7 @@ export default function Footer() {
                 <div className='line'></div>
                 <div className='row d-flex justify-content-center'>
                     <div className='col-10'>
-                        <p className='crator text-center'>Copyright © 2023 Design & Developed by <a href='#'>the dreamres</a></p>
+                        <p className='crator text-center mb-0'>Copyright © 2023 Design & Developed by <a href='#'>the dreamres</a></p>
                     </div>
                 </div>
             </div>

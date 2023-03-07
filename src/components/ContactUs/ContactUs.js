@@ -1,18 +1,16 @@
 import React from 'react'
 import "./ContactUs.css"
-import { Home } from 'react-feather'
-import { Twitter} from 'react-feather'
+import { Twitter } from 'react-feather'
 import { Linkedin } from 'react-feather'
 import { Instagram } from 'react-feather'
 import { Link } from 'react-router-dom'
-import circleImage from './imgs/circle-dots.png'
-import plusImage from './imgs/plus-blue.png'
-import phone from './imgs/phone.png'
-import mail from './imgs/mail.png'
-import map from './imgs/map.png'
+import Main from '../../Reusable-Component/Main '
+import { Home } from 'react-feather'
+
+
 import styled from 'styled-components';
 
-export default function ContactUs()  {
+export default function ContactUs() {
   const Title = styled.h4`
   @media (max-width: 992px) {
     width: 376px;
@@ -22,20 +20,8 @@ export default function ContactUs()  {
   return (
     <div>
       {/* Start of the Main section */}
-       
-        <div className="main-banner">
+        <Main title={["Contact Us","contact us"]} router={'/'} icon={Home}/>
         
-             <img className='circle-image'  src={circleImage} alt="circle-image" />
-             <img className='plus-image' src={plusImage} alt="" />
-           <div className="container router">
-              <h1 className='main-heading'>Contact Us</h1>
-              <ul className="router-list">
-                <li><Link to='/' className='home'><Home />Home</Link></li>
-                <li>/</li>
-                <li><Link to='/ContactUs' className='home'>Contact Us</Link></li>
-              </ul>          
-          </div>
-          </div>
           {/* End of the Main Section */}
 
           {/* Start of the Second Section */}
@@ -46,7 +32,7 @@ export default function ContactUs()  {
           
           <div className="container container-md custom-container d-flex  justify-content-evenly contact-form">
   <div className="row section-row mx-auto">
-    <div className="col-lg-5 col-md-12 col-sm-11 form-col">
+    <div className="col-lg-6 col-md-6 col-sm-12 form-col">
       <form>
         <div className="row">
           <div class="col-md-6 mb-3">
@@ -81,7 +67,7 @@ export default function ContactUs()  {
         </div>
       </form>
     </div>
-    <div className="col-lg-5 col-md-11 col-sm-11 float-right image-side" >
+    <div className="col-lg-6 col-md-6 col-sm-12 float-right image-side" >
                 <div className='img-overlay'></div>
                          <div className='infos' >
                              <Title className='img-heading' >Contact Us For Any Informations</Title> 
@@ -102,68 +88,20 @@ export default function ContactUs()  {
     
   </div>
 </div>
-          {/* Start of the sub section */}
-                 
-                     
-                      {/* <div className=' container sub-section'>  
-                         <div className='cards'>
-                             <div className="row mx-auto">
-                             
-                                <div className="card-tt col-lg-4 col-md-6 col-sm-12">
-                                  <div className='card1'>
-                                      <div className="card">
-                                     <div className="card-body">
-                                        <div className='card-icon' id='phone'><div class='image'><img src={phone} alt="" /></div></div>
-                                        <h5 className="card-title">Contact Number</h5>
-                                        <p className="card-text phone-text">+001 123 456 790
-                                        +002 3424 44 00
-                                        </p>
-                                        
-                                     </div>
-                                  </div>
-                              </div>
-                                  </div>
-                                
-                                   <div className="card-tt col-lg-4 col-md-6 col-sm-12"><div className='card2'>
-                                 <div className="card">
-                                    <div className="card-body">
-                                        <div  className='card-icon' id='mail'><img src={mail} alt="" /></div>
-                                        <h5 className="card-title">Email Address</h5>
-                                        <p className="card-text mail-text">info@yourdomain.com
-                                        example@support.com
-                                        </p>
-                                    </div>
-                                  </div>
-                             </div>
-                                </div>
-                             
-                              <div className="card-tt col-lg-4 col-md-6 col-sm-12"><div className='card3'>
-                                 <div className="card">
-                                    <div className="card-body">
-                                       <div  className='card-icon' id='map'><img src={map} /> </div>  
-                                       <h5 className="card-title">Location</h5>
-                                       <p className="card-text map-text">2005 Stokes Isle Apt. 896,
-                                        Venaville 10010, USA</p>
-                                       </div>
-                                    </div>
-                                  </div>
-                              </div>
-                             </div>
-                             
-                              
-                           </div> 
-                        </div>  */}
-                        
 
-                             
-                           
-                            
-                         
-                     
-        
-             {/*End of the Second section  */}
-        </div>
-      
+                 
+
+                       
+
+
+
+
+
+
+
+        {/*End of the Second section  */}
+      </div>
+
     </div>
   )
 }

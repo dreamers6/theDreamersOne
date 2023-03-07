@@ -32,7 +32,6 @@ body {
 }
 
 .main-banner {
-    margin-top: 100px;
     background-image: url(/public/images/footer_background.jpg);
     background-size: cover;
     width: 100%;
@@ -41,6 +40,8 @@ body {
     text-align: center;
     position: relative;
 }
+
+
 
 .row {
     width: 100%;
@@ -121,8 +122,8 @@ body {
 .main-heading {
     color: var(--heading-color);
     font-family: var(--main-font), sans-serif;
-    font-size: 72px;
-    font-weight: 600;
+    font-size: 62px;
+    font-weight: 700;
     letter-spacing: 1px;
     line-height: 1.5em;
 }
@@ -184,15 +185,15 @@ body {
     position: relative;
 }
 
-.second-section::before {
+.main-banner::after {
     content: "";
     background-image: url(/src/components/ContactUs/imgs/shape.png);
     background-repeat: no-repeat;
     position: absolute;
-    top: -71px;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 13%;
 }
 
 .custom-container {
@@ -201,6 +202,7 @@ body {
     /* padding-top: 62px; */
     box-shadow: 0px 10px 60px 0px rgb(31 34 120 / 10%);
 }
+
 
 @media (max-width: 1200px) {
     .custom-container {
@@ -367,6 +369,7 @@ body {
         width: 50%;
     }
 }
+
 
 .contact-form {
     background-color: var(--white);
@@ -623,6 +626,7 @@ body {
 .sub-section .card3 .card {
     border: 3px solid var(--third-circle);
 }
+
 
 @media (min-width:1300px) {
     .sub-section .card {
