@@ -13,7 +13,7 @@ export default function Main (props) {
            <div className="container router">
               <h1 className='main-heading'>{props.title[0]}</h1>
               <ul className="router-list">
-                <li><Link to={props.router} className='home'><props.icon /></Link></li>
+                <li><Link to={props.router} className='home'><props.icon /> home</Link></li>
                 <li>/</li>
                 <li>{props.title[1]}</li>
               </ul>          
