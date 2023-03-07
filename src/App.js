@@ -7,8 +7,8 @@ import ContactUs from './components/ContactUs/ContactUs'
 
 import Home from './components/home/Home.js';
 import NavBar from './components/navbar/NavBar.js';
+import Footer from './components/footer/Footer'
 
-import Header from './components/header/Header';
 
 import NavbarMobile from './components/navbar/NavbarMobile';
 
@@ -18,10 +18,10 @@ function App() {
             <NavBar />
             <Routes>
                     <Route exact path="/" element={<Home/>} />
-                    <Route path="/header" element={<Header />} />
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<NavbarMobile />} />
-            </Routes>    
+            </Routes>
+            <Footer />    
     </BrowserRouter>
     );
 }

@@ -1,15 +1,13 @@
 import React from 'react'
 import "./ContactUs.css"
-import { Home } from 'react-feather'
 import { Twitter } from 'react-feather'
 import { Linkedin } from 'react-feather'
 import { Instagram } from 'react-feather'
 import { Link } from 'react-router-dom'
-import circleImage from './imgs/circle-dots.png'
-import plusImage from './imgs/plus-blue.png'
-import phone from './imgs/phone.png'
-import mail from './imgs/mail.png'
-import map from './imgs/map.png'
+import Main from '../../Reusable-Component/Main '
+import { Home } from 'react-feather'
+
+
 import styled from 'styled-components';
 
 export default function ContactUs() {
@@ -22,20 +20,8 @@ export default function ContactUs() {
   return (
     <div>
       {/* Start of the Main section */}
-       
-        <div className="main-banner">
+        <Main title={["Contact Us","contact us"]} router={'/'} icon={Home}/>
         
-             <img className='circle-image'  src={circleImage} alt="circle-image" />
-             <img className='plus-image' src={plusImage} alt="" />
-           <div className="container router">
-              <h1 className='main-heading'>Contact Us</h1>
-              <ul className="router-list">
-                <li><Link to='/' className='home'><Home />   Home </Link></li>
-                <li>/</li>
-                <li>Contact Us</li>
-              </ul>          
-          </div>
-          </div>
           {/* End of the Main Section */}
 
           {/* Start of the Second Section */}
