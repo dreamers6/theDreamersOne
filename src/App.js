@@ -8,9 +8,9 @@ import ContactUs from './components/ContactUs/ContactUs'
 import Home from './components/home/Home.js';
 import NavBar from './components/navbar/NavBar.js';
 import Footer from './components/footer/Footer'
+import Services from './components/services/Services';
 
 
-import NavbarMobile from './components/navbar/NavbarMobile';
 
 function App() {
     return (
@@ -19,7 +19,7 @@ function App() {
             <Routes>
                     <Route exact path="/" element={<Home/>} />
                     <Route path="/ContactUs" element={<ContactUs />} />
-                    <Route path="/services" element={<NavbarMobile />} />
+                    <Route path="/services" element={<Services />} />
             </Routes>
             <Footer />    
     </BrowserRouter>
