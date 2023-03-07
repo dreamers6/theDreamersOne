@@ -54,4 +54,17 @@ a{
   --link-hover:#666af3;
 }
 
+h1,h2,h3,h4,h5{
+  font-family: "Montserrat", sans-serif;
+  color: #1f2278;
+  line-height: 1.3;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 700;
+  
+}
+
+
 

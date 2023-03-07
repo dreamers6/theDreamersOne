@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 // import '@fortawesome/fontawesome-svg-core/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 // import '@fortawesome/fontawesome-svg-core/styles.css';
 
