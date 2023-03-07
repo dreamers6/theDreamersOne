@@ -11,6 +11,7 @@ import NavBar from './components/navbar/NavBar.js';
 import Header from './components/header/Header';
 
 import NavbarMobile from './components/navbar/NavbarMobile';
+import Blogs from './components/blogs/Blogs';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/header" element={<Header />} />
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<NavbarMobile />} />
+                    <Route path='/blogs' element={<Blogs />} />
             </Routes>    
     </BrowserRouter>
     );

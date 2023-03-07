@@ -28,9 +28,9 @@ function NavBar() {
                     <NavLink to="#home"><span>Service Details</span></NavLink>
                 </div>
                 </NavLink>
-                <NavLink to="/header">Blog <i class="fa-solid fa-plus"></i>
+                <NavLink to="/blogs">Blog <i class="fa-solid fa-plus"></i>
                 <div className="inside">
-                    <NavLink to="#home"><span>Blog</span></NavLink>
+                    <NavLink to="/Blogs"><span>Blog</span></NavLink>
                     <NavLink to="#home"><span>Blog Details</span></NavLink>
                 </div>
                 </NavLink>

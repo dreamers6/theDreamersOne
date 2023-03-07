@@ -1,0 +1,83 @@
+{
+    "cards":[{
+        "id": 1,
+        "image": "../../blogs-imgs/card-image1.jpg",
+        "smallImage": "../../blogs-imgs/sm-image1.jpg",
+        "author": "John deo",
+        "date": "21 July 2021",
+        "title": "Dental Care for Women is very important",
+        "btn-content": "Read More"
+    },
+    {   
+        "id": 2,
+        "image": "../../blogs-imgs/card-image2.jpg",
+        "smallImage": "../../blogs-imgs/sm-image2.jpg",
+        "author": "Peter Packer",
+        "date": "20 July 2021",
+        "title": "In this hospital there are special surgeon",
+        "btn-content": "Read More"
+    },
+    {   
+        "id": 3,
+        "image": "../../blogs-imgs/card-image3.jpg",
+        "smallImage": "../../blogs-imgs/sm-image3.jpg",
+        "author": "Sonar Moyna",
+        "date": "19 July 2021",
+        "title": "Why Is Skin Surgeon Considered Underrated",
+        "btn-content": "Read More"
+    },
+    {
+        "id": 4,
+        "image": "../../blogs-imgs/card-image4.jpg",
+        "smallImage": "../../blogs-imgs/sm-image4.jpg",
+        "author": "Kalina",
+        "date": "19 July 2021",
+        "title": "Why Is Skin Surgeon Considered Underrated",
+        "btn-content": "Read More"
+    },
+    {
+        "id": 5,
+        "image": "../../blogs-imgs/card-image5.jpg",
+        "smallImage": "../../blogs-imgs/sm-image5.jpg",
+        "author": "Michel",
+        "date": "17 July 2021",
+        "title": "Health Will Be A Thing Of The Past And Here's Why.",
+        "btn-content": "Read More"
+    },
+    {
+        "id": 6,
+        "image": "../../blogs-imgs/card-image6.jpg",
+        "smallImage": "../../blogs-imgs/sm-image6.jpg",
+        "author": "Peter Packer",
+        "date": "16 July 2021",
+        "title": "Can you get a diflucan prescription online?",
+        "btn-content": "Read More"
+    },
+    {   
+        "id": 7,
+        "image": "../../blogs-imgs/card-image7.jpg",
+        "smallImage": "../../blogs-imgs/sm-image1.jpg",
+        "author": " Sonar Moyna",
+        "date": "15 July 2021",
+        "title": "Ten Gigantic Influences Of Health",
+        "btn-content": "Read More"
+    },
+    {   "id": 8,
+        "image": "../../blogs-imgs/card-image8.jpg",
+        "smallImage": "../../blogs-imgs/sm-image2.jpg",
+        "author": "Kalina",
+        "date": "14 July 2021",
+        "title": "why Is Skin Surgeon Considered Underrated",
+        "btn-content": "Read More"
+    },
+    {   
+        "id": 9,
+        "image": "../../blogs-imgs/card-image9.jpg",
+        "smallImage": "../../blogs-imgs/sm-image3.jpg",
+        "author": "Michel",
+        "date": "13 July 2021",
+        "title": "Everyone need to go Dentist regularly",
+        "btn-content": "Read More"
+    }
+]
+}

@@ -1,0 +1,117 @@
+:root {
+    --heading-color: #1F2278;
+    --pages-purple: #565ACF;
+    --pages-orange: #F17732;
+    --white: #FFFF;
+    --some-color: #444444;
+    --main-font: "Montserrat";
+    --first-circle: #FFF0F0;
+    --second-circle: #F8F0FF;
+    --third-circle: #EEFFF4;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: var(--main-font);
+}
+.card-body ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-around; */
+    
+}
+.card-body .author{
+   display: flex;
+   align-items: center;   
+}
+
+.card-body ul li{
+    color: var(--pages-orange);
+}
+.card-body .date{
+    font-size: 15px;
+}
+.card-body img, .card-body svg {
+    /* vertical-align: top; */
+}
+.card-body .card-title{
+    color: var(--heading-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.card-body .card-title:hover{
+    color: var(--pages-purple);
+}
+.card-body .btn{
+    background-color: var(--white);
+    color: var(--pages-purple);
+    border: 1px solid var(--pages-purple);
+    position: relative;
+    width: 50%;
+    text-align: start;
+}
+.card-body .btn:hover{
+    background-color: var(--pages-purple);
+    color: var(--white);
+    border: 1px solid var(--pages-purple);
+}
+.card-body .btn .btn-icon{
+    position: absolute;
+    top: 16%;
+    right: 3%;
+    background-color: var(--pages-purple);
+    color: white;
+    border-radius: 8px;
+    height: 71%;
+    width: 21%;
+    padding: 4px  
+}
+.card-body .author img{
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card-body .author{
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+.card-img-top{
+    padding: 15px;
+    border-radius: 20px
+}
+.blog-container{
+    max-width: 950px;
+}
+.card:hover{
+    box-shadow: 0px 10px 60px 0px rgb(31 34 120 / 10%);
+}
+.card{
+   border:2px solid rgba(86, 90, 207, 0.2);
+}
+.pagination li .page-link{
+    margin: 0 10px;
+    border-radius: 7px;
+    color: var(--pages-purple);
+  }
+.pagination .active .page-link{
+    background-color: var(--pages-purple);
+    color: white;
+}  
+.card-body img, .card-body svg {
+    vertical-align: top;
+}
