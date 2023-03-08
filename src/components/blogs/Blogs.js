@@ -6,6 +6,7 @@ import { Calendar, Home } from 'react-feather'
 import "./Blogs.css"
 import { ChevronRight } from 'react-feather'
 import Main from '../../Reusable-Component/Main '
+import Footer from '../footer/Footer'
 export default function Blogs() {
   
     const [cardData, setCardData] = useState([])
@@ -19,7 +20,7 @@ export default function Blogs() {
     const cardMap = cardData.map( card => {
       return (
        
-        <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-5">
           <div className="card" key={card.id}>
             <img src={card.image} class="card-img-top" alt={card.id} />          
             <div className="card-body">
@@ -28,7 +29,7 @@ export default function Blogs() {
                 <li className='date'><Calendar style={{fontSize: "10px"}} /> {card.date}</li>
               </ul>
               <h4 className="card-title">{card.title}</h4>
-              <Link href="#" className="btn">Read More  <ChevronRight className='btn-icon' /></Link>
+              <Link href="#" className="btn btn-sm">Read More  <ChevronRight className='btn-icon ml-2' /></Link>
             </div>
           </div>
         </div>
@@ -62,6 +63,9 @@ export default function Blogs() {
         </NavLink>
        {/* End of the Second Section */}
     </div> 
+    {/* footer */}
+     <Footer />
+    {/* footer */}
 </div> 
   )
 }

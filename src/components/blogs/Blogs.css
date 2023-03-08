@@ -61,7 +61,6 @@ body {
     position: relative;
     line-height: 1.2;
     text-align: start;
-    width: 50%;
     
 }
 .card-body .btn:hover{
@@ -100,7 +99,8 @@ body {
     max-width: 950px;
 }
 .card:hover{
-    box-shadow: 0px 10px 60px 0px rgb(31 34 120 / 10%);
+    box-shadow:  0px 10px 60px 0px rgb(31 34 120 / 10%);
+    border: 1px solid white;
 }
 .card{
    border:2px solid rgba(86, 90, 207, 0.2);
@@ -121,5 +121,38 @@ body {
     margin-top: 60px;
 }
 .card-body{
-    padding: 12px;
+    margin-left: 1rem;
+}
+.card-body ul{
+    padding-left: 1.2rem;
+}
+@media only screen and (max-width: 1200px){
+.card-body .btn {
+    width: 42%;
+}
+}
+@media only screen and (min-width: 1400px){
+.card-body .btn {
+    width: 45%;
+}
+}
+@media only screen and (max-width: 992px){
+.card-body .btn {
+   width: 50%;
+}
+}
+@media only screen and (max-width: 768px){
+.card-body .btn {
+    width: 38%;
+}
+}
+/* @media only screen and (min-width: 576px){
+.card-body .btn {
+   
+}
+} */
+@media only screen and (max-width: 576px){
+.card-body .btn {
+    width: 46%;
+}
 }
