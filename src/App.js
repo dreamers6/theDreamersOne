@@ -13,6 +13,7 @@ import Services from './components/services/Services';
 
 import NavbarMobile from './components/navbar/NavbarMobile';
 import Blogs from './components/blogs/Blogs';
+import Booking from './components/booking/Booking';
 
 function App() {
     return (
@@ -23,7 +24,8 @@ function App() {
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<Services />} />
                     <Route path='/blogs' element={<Blogs />} />
-            </Routes>    
+            </Routes>   
+            <Booking /> 
             <Footer />
     </BrowserRouter>
     );
