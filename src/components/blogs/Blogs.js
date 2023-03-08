@@ -2,9 +2,10 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 import { Link, NavLink } from 'react-router-dom'
-import { Calendar } from 'react-feather'
+import { Calendar, Home } from 'react-feather'
 import "./Blogs.css"
 import { ChevronRight } from 'react-feather'
+import Main from '../../Reusable-Component/Main '
 export default function Blogs() {
   
     const [cardData, setCardData] = useState([])
@@ -26,7 +27,6 @@ export default function Blogs() {
                 <li className='author'><Link><img src={card.smallImage} className="sm-img" alt="wow" /></Link> {card.author}</li>
                 <li className='date'><Calendar style={{fontSize: "10px"}} /> {card.date}</li>
               </ul>
-              <p className="card-text">{card.author}</p>
               <h4 className="card-title">{card.title}</h4>
               <Link href="#" className="btn">Read More  <ChevronRight className='btn-icon' /></Link>
             </div>
@@ -37,9 +37,12 @@ export default function Blogs() {
     })
 
     return (
-       // Start of the second Section 
-    <div className='container  '>
-        <div className='row mx-auto'>
+<div>
+      <Main title={["Blog Grid 3" , "Blog Grid 3"]} router={'/'} icon={Home} />
+    
+        {/* Start of the second Section  */}
+    <div className='container cont'>
+        <div className='row mx-auto '>
           {cardMap}
         </div>
         <NavLink aria-label="...">
@@ -58,6 +61,7 @@ export default function Blogs() {
           </ul>
         </NavLink>
        {/* End of the Second Section */}
-    </div>
+    </div> 
+</div> 
   )
 }
