@@ -1,5 +1,5 @@
-{
-    "cards":[{
+[
+    {
         "id": 1,
         "image": "../../blogs-imgs/card-image1.jpg",
         "smallImage": "../../blogs-imgs/sm-image1.jpg",
@@ -80,4 +80,3 @@
         "btn-content": "Read More"
     }
 ]
-}

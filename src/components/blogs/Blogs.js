@@ -6,20 +6,24 @@ import { Calendar, Home } from 'react-feather'
 import "./Blogs.css"
 import { ChevronRight } from 'react-feather'
 import Main from '../../Reusable-Component/Main '
-import Footer from '../footer/Footer'
+// import Footer from '../footer/Footer'
+import data from "./Anass.json" ;
 export default function Blogs() {
   
     const [cardData, setCardData] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:4000/cards")
-        .then( res => setCardData(res.data))
-        .catch( error => console.log(error) )
+        // axios.get("./Anass.json")
+        // .then( res => console.log(res) )
+        // .then( res => setCardData(res.data))
+        // .catch( error => console.log(error) )
+        setCardData(data)
     }, [])
-        
+
+    console.log(cardData) ;
+
     const cardMap = cardData.map( card => {
       return (
-       
         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-5">
           <div className="card" key={card.id}>
             <img src={card.image} class="card-img-top" alt={card.id} />          

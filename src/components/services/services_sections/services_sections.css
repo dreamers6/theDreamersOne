@@ -1,4 +1,7 @@
 .services-area-cards{
     padding-top: 100px;
+}
 
+.services-area-cards .row {
+    margin: 0 auto ;
 }

@@ -380,7 +380,7 @@ body {
     .form-col {
         padding-left: 0 !important;
     }
-    .row {
+    .form-col .row {
         width: 105%;
     }
 }
