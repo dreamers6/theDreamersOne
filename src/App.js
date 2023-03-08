@@ -21,9 +21,10 @@ function App() {
             <Routes>
                     <Route exact path="/" element={<Home/>} />
                     <Route path="/ContactUs" element={<ContactUs />} />
-                    <Route path="/services" element={<NavbarMobile />} />
+                    <Route path="/services" element={<Services />} />
                     <Route path='/blogs' element={<Blogs />} />
             </Routes>    
+            <Footer />
     </BrowserRouter>
     );
 }

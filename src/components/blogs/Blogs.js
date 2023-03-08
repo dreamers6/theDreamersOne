@@ -63,9 +63,6 @@ export default function Blogs() {
         </NavLink>
        {/* End of the Second Section */}
     </div> 
-    {/* footer */}
-     <Footer />
-    {/* footer */}
 </div> 
   )
 }
