@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 import { Link, NavLink } from 'react-router-dom'
 import { Calendar, Home } from 'react-feather'
 import "./Blogs.css"

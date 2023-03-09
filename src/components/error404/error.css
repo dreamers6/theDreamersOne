@@ -1,0 +1,96 @@
+:root {
+    --heading-color: #1F2278;
+    --pages-purple: #565ACF;
+    --pages-orange: #F17732;
+    --white: #FFFF;
+    --some-color: #444444;
+    --main-font: "Montserrat";
+    --first-circle: #FFF0F0;
+    --second-circle: #F8F0FF;
+    --third-circle: #EEFFF4;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: var(--main-font);
+}
+
+.error-section .main-title{
+   font-size: 180px;
+   /* font-family: var(--main-font) sans-serif; */
+   font-weight: 600;
+   margin-bottom: 30px;
+   font-weight: 700;
+}
+.error-section .sub-title{
+    font-weight: 700;
+    max-width: 550px;
+    margin: 0 auto;
+    
+}
+.error-section .main-title span{
+    height: 100px;
+    width: 100%;
+}
+.error-section .main-title span img{
+    height:145px; 
+    width:145px ;
+    margin: 0 20px
+}
+.error-section p{
+    margin: 20px auto;
+    max-width: 507px;
+    font-family: var(--main-font),sans-serif;
+    font-weight: 400;
+}
+.fix-btn{
+    background-color: var(--pages-purple)!important;
+    color: #fff!important;
+    margin: 0 5px;
+}
+.fix-btn:hover{
+    background-color: #4A4AB7!important;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1199px;
+    }
+    .error-section .main-title{
+        font-size: 120px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 570px!important;
+    }
+    .error-section .main-title{
+        font-size: 120px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 440px!important;
+    }
+    .error-section .main-title{
+        font-size: 120px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        max-width: 440px;
+    }
+    .error-section .main-title{
+        font-size: 120px;
+    }
+}
