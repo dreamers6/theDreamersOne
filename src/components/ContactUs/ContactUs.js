@@ -32,21 +32,21 @@ export default function ContactUs() {
           
           <div className="container container-md custom-container d-flex  justify-content-evenly contact-form contactUs">
   <div className="row section-row mx-auto">
-    <div className="col-lg-5 col-md-6 col-sm-12 form-col">
+    <div className="col-lg-5 col-md-6 column6 col-sm-12 form-col">
       <form>
         <div className="row">
-          <div class="col-md-6 mb-3">
+          <div class="col-md-6 column6 mb-3">
             <input type="text" className="form-control" id="input1" placeholder="Enter Input 1" style={{ minHeight: '55px'}}/>
           </div>
-          <div className="col-md-6 mb-3">
+          <div className="col-md-6 column6 mb-3">
             <input type="text" className="form-control" id="input2" placeholder="Enter Input 2"style={{ minHeight: '55px'}}/>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 mb-3">
+          <div className="col-md-6 column6 mb-3">
                <input type="text" className="form-control ml-2" id="input3" placeholder="Enter Input 3"style={{ minHeight: '55px'}}/>
           </div>
-          <div className="col-md-6 mb-3">
+          <div className="col-md-6 column6 mb-3">
            <select className="form-select select " style={{ minHeight: '55px'}} aria-label="Default select example">
                 <option defaultValue>Select Department</option>
                 <option value="1">One</option>
@@ -67,7 +67,7 @@ export default function ContactUs() {
         </div>
       </form>
     </div>
-    <div className="col-lg-5 col-md-6 col-sm-12 float-right image-side" >
+    <div className="col-lg-5 col-md-6 column6 col-sm-12 float-right image-side" >
                 <div className='img-overlay'></div>
                          <div className='infos' >
                              <Title className='img-heading' >Contact Us For Any Informations</Title> 
