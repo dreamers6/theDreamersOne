@@ -5,3 +5,9 @@
 .services-area-cards .row {
     margin: 0 auto ;
 }
+
+.services-section2{
+    background-color: rgba(86, 90, 207, 0.1);
+    padding-top: 70px;
+
+}

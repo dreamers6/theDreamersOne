@@ -55,7 +55,7 @@ a{
 }
 
 h1,h2,h3,h4,h5{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   color: #1f2278;
   line-height: 1.3;
 }
