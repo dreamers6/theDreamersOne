@@ -1,0 +1,56 @@
+[
+    {
+        "id" : 1,
+        "imgPerson" : "../../images-ourTeam/ayoub.jpg",
+        "name" : "Dr. Chater Ayoub",
+        "specialist" : "Dentist",
+        "twitter":"...",
+        "linkedin": "...",
+        "instagram": "..."
+    },
+    {
+        "id" : 2,
+        "imgPerson" : "../../images-ourTeam/hamid.jpg",
+        "name" : "Dr. Saili Hamid",
+        "specialist" : "Chiropractor",
+        "twitter":"...",
+        "linkedin": "...",
+        "instagram": "..."
+    },
+    {
+        "id" : 3,
+        "imgPerson" : "../../images-ourTeam/anass.jpg",
+        "name" : "Dr. Barik Anass",
+        "specialist" : "Cardiologist",
+        "twitter":"...",
+        "linkedin": "...",
+        "instagram": "..."
+    },
+    {
+        "id" : 4,
+        "imgPerson" : "../../images-ourTeam/yahya.jpg",
+        "name" : "Dr. El gout Yahya",
+        "specialist" : "Dentist",
+        "twitter":"...",
+        "linkedin": "...",
+        "instagram": "..."
+    },
+    {
+        "id" : 5,
+        "imgPerson" : "../../images-ourTeam/yasser.jpg",
+        "name" : "Dr. Khalil Yasser",
+        "specialist" : "Chiropractor",
+        "twitter":"...",
+        "linkedin": "...",
+        "instagram": "..."
+    },
+    {
+        "id" : 6,
+        "imgPerson" : "../../images-ourTeam/imade.jpg",
+        "name" : "Dr. Abdlmou Imade",
+        "specialist" : "Cardiologist",
+        "twitter":"...",
+        "linkedin": "...",
+        "instagram": "..."
+    }
+]

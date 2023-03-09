@@ -11,8 +11,9 @@ import Footer from './components/footer/Footer'
 import Services from './components/services/Services';
 
 
-import NavbarMobile from './components/navbar/NavbarMobile';
+// import NavbarMobile from './components/navbar/NavbarMobile';
 import Blogs from './components/blogs/Blogs';
+import OurTeam from './components/ourTeam/OurTeam';
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<Services />} />
                     <Route path='/blogs' element={<Blogs />} />
+                    <Route path='/about' element={<OurTeam />} />
             </Routes>    
             <Footer />
     </BrowserRouter>

@@ -20,13 +20,13 @@ export default function Blogs() {
         setCardData(data)
     }, [])
 
-    console.log(cardData) ;
+    // console.log(cardData) ;
 
     const cardMap = cardData.map( card => {
       return (
         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-5">
           <div className="card" key={card.id}>
-            <img src={card.image} class="card-img-top" alt={card.id} />          
+            <img src={card.image} className="card-img-top" alt={card.id} />          
             <div className="card-body">
               <ul >
                 <li className='author'><Link><img src={card.smallImage} className="sm-img" alt="wow" /></Link> {card.author}</li>

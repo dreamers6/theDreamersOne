@@ -34,7 +34,7 @@ function NavBar() {
                     <NavLink to="#home"><span>Blog Details</span></NavLink>
                 </div>
                 </NavLink>
-                <NavLink to="/footer">About</NavLink>
+                <NavLink to="/about">About</NavLink>
                 <NavLink to="/search"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></NavLink>
                 <NavLink to="tel:(+212)625742282"><i class="fa-sharp fa-solid fa-phone"></i> (+212) 625 742 282</NavLink>
                 <NavLink to="/ContactUs"><Button variant="primary">CONTACT US <i class="fa-sharp fa-solid fa-greater-than"></i></Button></NavLink>

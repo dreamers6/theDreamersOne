@@ -5,9 +5,6 @@ import Section1 from './services_sections/Section1'
 
 
 export default function Services() {
-
-
-
   return (
     <div className='services-area'>
       <div className='services-area-top'>
