@@ -29,8 +29,10 @@ body {
     width: 100%;
 }
 
-.custom-container {
+.second-section .custom-container {
     position: relative;
+    margin-top: -190px;
+    z-index: 2;
 }
 
 .main-banner {
@@ -44,8 +46,12 @@ body {
     margin-bottom: 60px;
 }
 
-
-
+.contact-banner .main-banner{
+    height: 580px;
+}
+.contact-banner .main-banner::after{
+    bottom: -155px;
+}
 /* .row {
     width: 100%;
 } */
@@ -62,6 +68,7 @@ body {
     .contact-form {
         padding-left: 0 !important;
     }
+
 }
 
 .contact-form {
@@ -127,6 +134,10 @@ body {
     bottom: 110px;
     left: 250px;
     animation: wave-image 5s linear infinite;
+}
+.contact-banner .main-banner .wave-image{
+    bottom: 65px;
+    z-index: 2;
 }
 
 @keyframes wave-image {
@@ -224,7 +235,7 @@ body {
 
 
 .second-section {
-    background-color: var(--white);
+    /* background-color: var(--white); */
     width: 100%;
     position: relative;
 }
@@ -249,14 +260,16 @@ body {
 
 
 @media (max-width: 1200px) {
-    .custom-container {
+    .second-section .contact-form {
         max-width: 972px;
     }
 }
 
 @media (max-width: 992px) {
-    .custom-container {
+    .second-section .custom-container {
         max-width: 772px;
+        margin-top: -180px;
+        z-index: 2;
     }
 
     .main-banner {
@@ -328,8 +341,10 @@ body {
 }
 
 @media (max-width: 768px) {
-    .custom-container {
+    .second-section .custom-container {
         max-width: 572px;
+        margin-top: -190px!important;
+        z-index: 2;
     }
 
     .main-banner {
@@ -366,8 +381,10 @@ body {
 }
 
 @media (max-width: 576px) {
-    .custom-container {
+    .second-section .custom-container {
         max-width: 472px;
+        margin-top: -190px;
+        z-index: 2;
     }
 
     .main-banner {
@@ -397,8 +414,10 @@ body {
 }
 
 @media (max-width: 481px) {
-    .custom-container {
-        max-width: 485px;
+    .second-section .custom-container {
+        max-width: 350px;
+        margin-top: -190px;
+        z-index: 2;
     }
 
     .second-section .custom-container .section-row {
@@ -541,10 +560,10 @@ body {
 }
 
 .sub-section {
-    position: absolute;
+    /* position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%); */
 
 }
 
@@ -682,5 +701,12 @@ body {
     .second-section .custom-container .row {
         justify-content: space-between;
     }
-
+    .second-section .custom-container{
+        max-width: 1100px;
+    }
+}
+@media (min-width: 992px){
+    .sub-section{
+        margin-bottom: -193px;
+    }
 }
