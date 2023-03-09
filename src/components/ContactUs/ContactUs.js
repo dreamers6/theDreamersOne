@@ -6,8 +6,9 @@ import { Instagram } from 'react-feather'
 import { Link } from 'react-router-dom'
 import Main from '../../Reusable-Component/Main '
 import { Home } from 'react-feather'
-
-
+import phone from "../ContactUs/imgs/phone.png"
+import mail from "../ContactUs/imgs/mail.png"
+import map from "../ContactUs/imgs/map.png"
 import styled from 'styled-components';
 
 export default function ContactUs() {
@@ -20,7 +21,9 @@ export default function ContactUs() {
   return (
     <div>
       {/* Start of the Main section */}
+       <div className='contact-banner'>
         <Main title={["Contact Us","contact us"]} router={'/'} icon={Home}/>
+       </div>
         
           {/* End of the Main Section */}
 
@@ -31,6 +34,7 @@ export default function ContactUs() {
              
           
           <div className="container container-md custom-container d-flex  justify-content-evenly contact-form contactUs">
+            {/* <div className='contact-wrapper'> */}
   <div className="row section-row mx-auto">
     <div className="col-lg-5 col-md-6 column6 col-sm-12 form-col">
       <form>
@@ -85,22 +89,62 @@ export default function ContactUs() {
                          </div>
                          
                    </div>
-    
+      {/* </div> */}
   </div>
 </div>
-
-                 
-
-                       
-
-
-
-
-
-
-
         {/*End of the Second section  */}
       </div>
+        <section className='container sub-section'>  
+        <div className='cards'>
+            <div className="row mx-auto">
+             
+             <div className="card-tt col-lg-4 col-md-6 col-sm-12">
+                 <div className='card1'>
+                     <div className="card">
+                         <div className="card-body">
+                           <div className='card-icon' id='phone'><div class='image'><img src={phone} alt="" /></div></div>
+                           <h5 className="card-title">Contact Number</h5>
+                           <p className="card-text phone-text">+001 123 456 790
+                           +002 3424 44 00
+                           </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             
+             <div className="card-tt col-lg-4 col-md-6 col-sm-12">
+                 <div className='card2'>
+                     <div className="card">
+                         <div className="card-body">
+                           <div  className='card-icon' id='mail'><img src={mail} alt="" /></div>
+                           <h5 className="card-title">Email Address</h5>
+                           <p className="card-text mail-text">info@yourdomain.com
+                           example@support.com
+                           </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+            
+             <div className="card-tt col-lg-4 col-md-6 col-sm-12">
+                <div className='card3'>
+                    <div className="card">
+                        <div className="card-body">
+                          <div  className='card-icon' id='map'><img src={map} /> </div>  
+                          <h5 className="card-title">Location</h5>
+                          <p className="card-text map-text">2005 Stokes Isle Apt. 896,
+                          Venaville 10010, USA</p>
+                        </div>
+                     </div>
+                </div>
+             </div>
+
+
+            </div>
+          </div> 
+       </section> 
+      
+        {/* </div> */}
 
     </div>
   )
