@@ -29,7 +29,7 @@ body {
     width: 100%;
 }
 
-.container {
+.custom-container {
     position: relative;
 }
 
@@ -278,12 +278,12 @@ body {
         max-width: 50%;
     } */
 
-    .col-md-6:first-child {
+    .column6:first-child {
         flex-grow: 1;
         max-width: 100%;
     }
 
-    .col-md-6:last-child {
+    .column6:last-child {
         max-width: 100%;
 
     }
