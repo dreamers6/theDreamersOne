@@ -157,26 +157,26 @@ body {
 }
 }
 @media (min-width: 1200px){
-    .container{
+    .blog-section{
         max-width: 1199px;
         margin: 0 auto!important;
         padding-top: 100px;
     }
 }
 @media (min-width: 992px){
-    .container{
+    .blog-section{
         max-width: 960px;
         margin: 0 auto!important;
     }
 }
 @media (min-width: 768px){
-    .container{
+    .blog-section{
         max-width: 760px;
         margin: 0 auto!important;
     }
 }
 @media (min-width: 576px){
-    .container{
+    .blog-section{
         max-width: 540px;
         margin: 0 auto!important;
     }

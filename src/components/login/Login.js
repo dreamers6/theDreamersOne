@@ -17,8 +17,8 @@ export default function Login() {
                         <img src={logo} alt="logo" className='logo text-center mb-4' />
                         <form>
                           
-                           <input type="text" className="form-control input-1 mb-4" id="Input1" placeholder="Username" />
-                           <input type="password" className="form-control input-2 mb-4" id="Input2" placeholder="Password" />
+                           <input type="text" className="form-control login-inputs input-1 mb-4" style={{ minHeight: '55px'}} id="Input1" placeholder="Username" />
+                           <input type="password" className="form-control login-inputs input-2 mb-4" style={{ minHeight: '55px'}} id="Input2" placeholder="Password" />
                            <button type="button" className='btn login-btn text-center mx-auto mb-4 w-100'>Login</button>
                            <Link to="" className='forgot-pass'>Forgot Password</Link>
                            <p className='para mb-3'>Don't have any account ?</p>

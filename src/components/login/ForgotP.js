@@ -10,8 +10,8 @@ export default function ForgotP() {
                         <img src={logo} alt="logo" className='logo text-center mb-4' />
                         <form>
                           
-                           <input type="password" className="form-control input-1 mb-4" id="Input1" placeholder="Password" />
-                           <input type="password" className="form-control input-2 mb-4" id="Input2" placeholder="New password" />
+                           <input type="password" className="form-control input-1 mb-4" style={{ minHeight: '55px'}} id="Input1" placeholder="Password" />
+                           <input type="password" className="form-control input-2 mb-4" style={{ minHeight: '55px'}} id="Input2" placeholder="New password" />
                            <button type="button" className='btn submit-btn text-center mx-auto mb-4 w-100'>Submit</button>
                            <p className='mb-3'>Already have an account ?</p>
                            <button type="button" className='btn btn-secondary mb-3 w-100'>Login</button>

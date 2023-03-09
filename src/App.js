@@ -13,11 +13,11 @@ import Services from './components/services/Services';
 
 import NavbarMobile from './components/navbar/NavbarMobile';
 import Blogs from './components/blogs/Blogs';
-// import Error from './components/error404/Error';
-// import Booking from './components/booking/Booking';
-// import Login from './components/login/Login';
-// import Register from './components/register/Register';
-// import ForgotP from './components/login/ForgotP';
+import Error from './components/error404/Error';
+import Booking from './components/booking/Booking';
+import Login from './components/login/Login';
+import Register from './components/register/Register';
+import ForgotP from './components/login/ForgotP';
 
 function App() {
     return (

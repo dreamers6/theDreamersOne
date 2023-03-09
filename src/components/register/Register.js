@@ -9,10 +9,10 @@ export default function Register() {
                  <div className='register-form'>
                     <img src={logo} alt="logo" className='mb-4' />
                     <form>
-                        <input type="text" className='form-control mb-4' placeholder='Name' />
-                        <input type="email" className='form-control mb-4' placeholder='Email' />
-                        <input type="text" className='form-control mb-4' placeholder='Username' />
-                        <input type="password" className='form-control mb-4' placeholder='Password' />
+                        <input type="text" className='form-control mb-4' style={{ minHeight: '55px'}} placeholder='Name' />
+                        <input type="email" className='form-control mb-4' style={{ minHeight: '55px'}} placeholder='Email' />
+                        <input type="text" className='form-control mb-4' style={{ minHeight: '55px'}} placeholder='Username' />
+                        <input type="password" className='form-control mb-4' style={{ minHeight: '55px'}} placeholder='Password' />
                         <button type="button" className='btn register-btn w-100 mb-3'>Register Now</button>
                         <p className='mb-3'>Already have an account ?</p>
                         <button type="button" className='btn btn-secondary w-100'>Login</button>
