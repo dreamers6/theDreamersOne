@@ -25,19 +25,8 @@ body {
     position: relative;
     font-family: var(--main-font);
 }
-.appointment-form select{
-    border: 1px solid;
-    border-color: rgba(86, 90, 207, 0.3);
-    border-radius: 8px;
-    height: 60px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #444;
-    padding: 18px 25px;
-    margin-top: 0;
-}
+
 .form-control{
-    /* display: block; */
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -45,28 +34,37 @@ body {
     height: 60px;
     color: #212529;
     background-color: #fff;
-    background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .375rem;
 }
-.appointment-form{
+.login-form{
     background-color: #fff;
     box-shadow: 0px 10px 60px 0px rgb(31 34 120 / 10%);
     padding: 40px 35px;
     text-align: center;
-    position: relative;
     margin-left: 20px;
     padding: 30px;
     border-radius: 40px;
+    position: relative;
 }
-.appointment-form .booking-title {
-    margin-bottom: 30px;
-    color: var(--heading-color);
-    font-weight: 700;
-    font-family: var(--main-font) , sans-serif;
+.login-btn{
+    height: 60px;
+    background-color: var(--pages-purple)!important;
+    color: #fff!important;
 }
-.booking{
-    padding-top: 100px;
+.login-btn:hover{
+    background-color: #4E4EDE!important;
+}
+.forgot-pass{
+     font-size: 1rem;
+    font-family: var(--main-font), sans-serif; 
+    color: var(--pages-purple); 
+    }
+.login-form p{
+    margin-top: 35px;
+    font-size: 1rem;
+    font-family: var(--main-font),sans-serif;
+    font-weight: 500;
 }
 @media (min-width: 1200px) {
     .container{
@@ -87,15 +85,4 @@ body {
     .container{
         max-width: 440px;
     }
-}
-.appointment-form::after{
-    content: "";
-    position: absolute;
-    bottom: 3%;
-    right: 4%;
-    height: 100%;
-    width: 100%;
-    border: 2px solid var(--pages-purple);
-    border-radius: 40px;
-    z-index: -2;
 }
