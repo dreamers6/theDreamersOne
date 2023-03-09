@@ -13,12 +13,13 @@ import Services from './components/services/Services';
 
 // import NavbarMobile from './components/navbar/NavbarMobile';
 import Blogs from './components/blogs/Blogs';
-import OurTeam from './components/ourTeam/OurTeam';
+
 import Error from './components/error404/Error';
 import Booking from './components/booking/Booking';
 import Login from './components/login/Login';
 import Register from './components/register/Register';
 import ForgotP from './components/login/ForgotP';
+import OurTeam from './components/ourTeam/OurTeam';
 
 function App() {
     return (
@@ -29,7 +30,7 @@ function App() {
                     <Route path="/ContactUs" element={<ContactUs />} />
                     <Route path="/services" element={<Services />} />
                     <Route path='/blogs' element={<Blogs />} />
-                    <Route path='/about' element={<OurTeam />} />
+                    <Route path='/about' element={<OurTeam/>} />
             </Routes>    
             {/* <Booking />  */}
             {/* <Login /> */}
