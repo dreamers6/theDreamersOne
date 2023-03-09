@@ -69,22 +69,22 @@ body {
     padding-top: 100px;
 }
 @media (min-width: 1200px) {
-    .container{
+    .booking-section{
         max-width: 1199px;
     }
 }
 @media (max-width: 992px) {
-    .container{
+    .booking-section{
         max-width: 570px!important;
     }
 }
 @media (max-width: 768px) {
-    .container{
+    .booking-section{
         max-width: 440px!important;
     }
 }
 @media (max-width: 576px) {
-    .container{
+    .booking-section{
         max-width: 440px;
     }
 }
