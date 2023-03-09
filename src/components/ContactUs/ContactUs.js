@@ -30,7 +30,7 @@ export default function ContactUs() {
         
              
           
-          <div className="container container-md custom-container d-flex  justify-content-evenly contact-form">
+          <div className="container container-md custom-container d-flex  justify-content-evenly contact-form contactUs">
   <div className="row section-row mx-auto">
     <div className="col-lg-6 col-md-6 col-sm-12 form-col">
       <form>

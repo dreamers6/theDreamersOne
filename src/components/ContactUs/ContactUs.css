@@ -1,5 +1,3 @@
-
-
 :root {
     --heading-color: #1F2278;
     --pages-purple: #565ACF;
@@ -27,6 +25,10 @@ body {
     position: relative;
 }
 
+.contactUs .row {
+    width: 100%;
+}
+
 .container {
     position: relative;
 }
@@ -39,6 +41,7 @@ body {
     height: 400px;
     text-align: center;
     position: relative;
+    margin-bottom: 60px;
 }
 
 
