@@ -9,7 +9,7 @@ export default function Cardssection2(props) {
       if(count<props.number){
         setcount(count+1)
       }
-    },5);
+    },props.second);
     return () => clearInterval(interval);
   }, [count, props.number]);
 

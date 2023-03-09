@@ -1,10 +1,6 @@
-import data from './data.json'
 import section2data from './sectio2data.json'
 
 
-const getservicedata = () => {
-    return data;
-  };
 
 
 const get_section2_data=()=>{
@@ -15,4 +11,4 @@ const get_section2_data=()=>{
   
 
 
-export  {getservicedata,get_section2_data};
+export  {get_section2_data};

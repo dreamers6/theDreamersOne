@@ -51,8 +51,25 @@
     border-radius: 20px;
     position: relative;
     margin: 15px 0 0 15px;
+    transition: all 0.5s ease !important;
 }
 
+.services-section2-content:hover{
+    background-color: #565acf;
+}
+
+.services-section2-content:hover h2{
+    color: #fff;
+}
+
+
+.services-section2-content:hover h5{
+    color: #fff;
+}
+
+.services-section2-content:hover p{
+    color: #fff;
+}
 .services-section2-content::after{
     content: '';
     position: absolute;
