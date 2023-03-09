@@ -68,22 +68,22 @@ body {
     font-weight: 500;
 }
 @media (min-width: 1200px) {
-    .container{
+    .register-section{
         max-width: 1199px;
     }
 }
 @media (max-width: 992px) {
-    .container{
+    .register-section{
         max-width: 570px!important;
     }
 }
 @media (max-width: 768px) {
-    .container{
+    .register-section{
         max-width: 440px!important;
     }
 }
 @media (max-width: 576px) {
-    .container{
+    .register-section{
         max-width: 440px;
     }
 }

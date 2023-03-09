@@ -32,7 +32,7 @@ export default function ContactUs() {
           
           <div className="container container-md custom-container d-flex  justify-content-evenly contact-form">
   <div className="row section-row mx-auto">
-    <div className="col-lg-6 col-md-6 col-sm-12 form-col">
+    <div className="col-lg-5 col-md-6 col-sm-12 form-col">
       <form>
         <div className="row">
           <div class="col-md-6 mb-3">
@@ -67,7 +67,7 @@ export default function ContactUs() {
         </div>
       </form>
     </div>
-    <div className="col-lg-6 col-md-6 col-sm-12 float-right image-side" >
+    <div className="col-lg-5 col-md-6 col-sm-12 float-right image-side" >
                 <div className='img-overlay'></div>
                          <div className='infos' >
                              <Title className='img-heading' >Contact Us For Any Informations</Title> 

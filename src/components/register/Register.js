@@ -3,7 +3,7 @@ import logo from "../../images/imgs-ayoub/logo.png"
 import "./register.css"
 export default function Register() {
   return (
-    <div className='container'>
+    <div className='container register-section'>
         <div className='row justify-content-center'>
             <div className='col-xl-5 col-md-6 col-lg-6'>
                  <div className='register-form'>
