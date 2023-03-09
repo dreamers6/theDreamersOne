@@ -4,7 +4,7 @@ import error404 from "../../images/error.gif"
 import "./error.css"
 export default function Error() {
   return (
-    <div className='container' >
+    <div className='container error404' >
            <div className='error-section text-center'>
               <h2 className='main-title'>
                 4 

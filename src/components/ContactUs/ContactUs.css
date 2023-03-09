@@ -504,7 +504,11 @@ body {
     color: var(--pages-purple);
 
 }
-
+.socials-icons li:first-child:hover,
+.socials-icons li:nth-child(2):hover,
+.socials-icons li:last-child:hover {
+    background-color: var(--pages-orange);
+}
 .infos link {
     color: white;
 }
@@ -516,6 +520,7 @@ body {
     font-size: 24px;
     font-family: var(--main-font), sans-serif;
     font-weight: 700;
+    color: var(--white);
 }
 
 .infos .location-heading,

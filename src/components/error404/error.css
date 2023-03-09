@@ -63,7 +63,7 @@ body {
     background-color: #4A4AB7!important;
 }
 @media (min-width: 1200px) {
-    .container{
+    .error404{
         max-width: 1199px;
     }
     .error-section .main-title{
@@ -71,7 +71,7 @@ body {
     }
 }
 @media (max-width: 992px) {
-    .container{
+    .error404{
         max-width: 570px!important;
     }
     .error-section .main-title{
@@ -79,7 +79,7 @@ body {
     }
 }
 @media (max-width: 768px) {
-    .container{
+    .error404{
         max-width: 440px!important;
     }
     .error-section .main-title{
@@ -87,7 +87,7 @@ body {
     }
 }
 @media (max-width: 576px) {
-    .container{
+    .error404{
         max-width: 440px;
     }
     .error-section .main-title{

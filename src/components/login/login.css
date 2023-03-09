@@ -67,22 +67,22 @@ body {
     font-weight: 500;
 }
 @media (min-width: 1200px) {
-    .container{
+    .login-section{
         max-width: 1199px;
     }
 }
 @media (max-width: 992px) {
-    .container{
+    .login-section{
         max-width: 570px!important;
     }
 }
 @media (max-width: 768px) {
-    .container{
+    .login-section{
         max-width: 440px!important;
     }
 }
 @media (max-width: 576px) {
-    .container{
+    .login-section{
         max-width: 440px;
     }
 }
