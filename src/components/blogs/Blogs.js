@@ -46,7 +46,7 @@ export default function Blogs() {
       <Main title={["Blog Grid 3" , "Blog Grid 3"]} router={'/'} icon={Home} />
     
         {/* Start of the second Section  */}
-    <div className='container cont'>
+    <div className='container blog-section'>
         <div className='row mx-auto '>
           {cardMap}
         </div>

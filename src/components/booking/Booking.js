@@ -26,9 +26,9 @@ export default function Booking() {
                               <option value="2">Two</option>
                               <option value="3">Three</option>
                            </select>
-                           <input type="text" class="form-control input-1 mb-4" id="Input1" placeholder="Your Name" />
-                           <input type="text" class="form-control input-2 mb-4" id="Input2" placeholder="Phone Number" />
-                           <input type="date" class="form-control input-3 mb-4" id="Input3" placeholder="mm/dd/yyyy" />
+                           <input type="text" class="form-control input-1 mb-4" id="Input1" style={{ minHeight: '55px'}} placeholder="Your Name" />
+                           <input type="text" class="form-control input-2 mb-4" id="Input2" style={{ minHeight: '55px'}} placeholder="Phone Number" />
+                           <input type="date" class="form-control input-3 mb-4" id="Input3" style={{ minHeight: '55px'}} placeholder="mm/dd/yyyy" />
                            <button type="submit" className='btn btn-secondary mb-3'>Apply Now</button>
                         </form>
                     </div>
