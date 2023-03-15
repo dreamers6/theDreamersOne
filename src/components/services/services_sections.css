@@ -11,3 +11,27 @@
     padding-top: 70px;
 
 }
+
+.services-area{
+    padding-top: 50px;
+}
+
+.services-area-sections .container .section-title h6{
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.services-area-sections .container .section-title h2{
+    font-weight: 700;
+    color: var( --main-color-2);
+    font-size: 36px;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width:992px) {
+    .services-area-section4 .blog-section .cards #card2{
+        display: none;
+    }
+}

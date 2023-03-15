@@ -1,14 +1,14 @@
-import section2data from './sectio2data.json'
 
 
 
 
-const get_section2_data=()=>{
 
-  return section2data
+const get_data=(data)=>{
+
+  return data
 
 }
   
 
 
-export  {get_section2_data};
+export  {get_data};

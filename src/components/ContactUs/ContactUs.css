@@ -40,18 +40,14 @@ body {
     background-size: cover;
     width: 100%;
     background-position: 100%;
-    height: 400px;
+    height: 500px;
     text-align: center;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-.contact-banner .main-banner{
-    height: 580px;
-}
-.contact-banner .main-banner::after{
-    bottom: -155px;
-}
+
+
 /* .row {
     width: 100%;
 } */
@@ -245,10 +241,10 @@ body {
     background-image: url(/src/components/ContactUs/imgs/shape.png);
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -75px;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 40%;
+    height: 17%;
 }
 
 .custom-container {
