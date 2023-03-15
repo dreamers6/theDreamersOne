@@ -40,15 +40,15 @@ export default function ContactUs() {
       <form>
         <div className="row">
           <div class="col-md-6 column6 mb-3">
-            <input type="text" className="form-control" id="input1" placeholder="Enter Input 1" style={{ minHeight: '55px'}}/>
+            <input type="text" className="form-control" id="input1" placeholder="Your Name" style={{ minHeight: '55px'}}/>
           </div>
           <div className="col-md-6 column6 mb-3">
-            <input type="text" className="form-control" id="input2" placeholder="Enter Input 2"style={{ minHeight: '55px'}}/>
+            <input type="email" className="form-control" id="input2" placeholder="Your Email"style={{ minHeight: '55px'}}/>
           </div>
         </div>
         <div className="row">
           <div className="col-md-6 column6 mb-3">
-               <input type="text" className="form-control ml-2" id="input3" placeholder="Enter Input 3"style={{ minHeight: '55px'}}/>
+               <input type="text" className="form-control ml-2" id="input3" placeholder="Phone Number"style={{ minHeight: '55px'}}/>
           </div>
           <div className="col-md-6 column6 mb-3">
            <select className="form-select select " style={{ minHeight: '55px'}} aria-label="Default select example">
@@ -61,12 +61,12 @@ export default function ContactUs() {
         </div>
         <div className="row">
           <div className="col-md-12 mb-3">
-            <textarea className="form-control" id="textarea" rows="10" placeholder="Enter Textarea"></textarea>
+            <textarea className="form-control" id="textarea" rows="10" placeholder="Type Message"></textarea>
           </div>
         </div>
         <div className="row">
           <div className="col-md-12 ">
-            <button className="btn w-100" type="submit">Submit</button>
+            <button className="btn btn-secondary w-100" type="submit">Submit</button>
           </div>
         </div>
       </form>
