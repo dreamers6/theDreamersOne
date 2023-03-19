@@ -73,7 +73,7 @@ body {
 }
 @media (max-width: 992px) {
     .login-section{
-        max-width: 570px!important;
+        max-width: 920px!important;
     }
 }
 @media (max-width: 768px) {

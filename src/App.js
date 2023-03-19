@@ -20,6 +20,7 @@ import Login from './components/login/Login';
 import Register from './components/register/Register';
 import ForgotP from './components/login/ForgotP';
 import OurTeam from './components/ourTeam/OurTeam';
+import AboutUs from './components/aboutus/AboutUs';
 
 function App() {
     return (
@@ -32,11 +33,12 @@ function App() {
                     <Route path='/blogs' element={<Blogs />} />
                     <Route path='/about' element={<OurTeam/>} />
             </Routes>    
-            {/* <Booking />  */}
+            <Booking /> 
             {/* <Login /> */}
             {/* <Register /> */}
             {/* <ForgotP /> */}
             {/* <Error /> */}
+            <AboutUs />
             <Footer />
     </BrowserRouter>
     );
