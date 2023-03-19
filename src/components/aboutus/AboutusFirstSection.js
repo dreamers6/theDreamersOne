@@ -13,7 +13,7 @@ import img5 from "../../images/square-dots-orange.png"
 export default function AboutUsFirstSection() {
   return (
   
-        <div className='container about-us-section'>
+        <div className='container about-us-section first-section'>
             <div className='row justify-content-center'>
                 <div className='col-lg-6 first-col'>
                     <div className='imgs-side'>
