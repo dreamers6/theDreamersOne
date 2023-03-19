@@ -63,22 +63,22 @@ body {
     font-weight: 500;
 }
 @media (min-width: 1200px) {
-    .login-section{
+    .forgot-section{
         max-width: 1199px;
     }
 }
 @media (max-width: 992px) {
-    .login-section{
-        max-width: 570px!important;
+    .forgot-section{
+        max-width: 920px!important;
     }
 }
 @media (max-width: 768px) {
-    .login-section{
+    .forgot-section{
         max-width: 440px!important;
     }
 }
 @media (max-width: 576px) {
-    .login-section{
+    .forgot-section{
         max-width: 440px;
     }
 }

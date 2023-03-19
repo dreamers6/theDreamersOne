@@ -3,7 +3,7 @@ import "./forgotP.css"
 import logo from "../../images/imgs-ayoub/logo.png"
 export default function ForgotP() {
   return (
-    <div className='container login-section mb-5'>
+    <div className='container forgot-section mb-5'>
             <div className='row booking justify-content-center '>
                  <div className='col-xl-5 col-lg-6 col-md-6'>
                     <div className='forgotP-form'>
