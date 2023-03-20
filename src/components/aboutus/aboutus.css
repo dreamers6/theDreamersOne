@@ -110,8 +110,10 @@ body {
     color: var(--pages-orange);
     font-size: 18px;
     background-image: url(../../images/ext-orange.png);
-    width: 120px;
+    width: 130px;
     padding: 3px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 .about-us-section{
     margin-top: 50px;
@@ -452,4 +454,19 @@ body {
     .about-us-section .imgs-side ul li:first-child img{
         margin-left: 50px;
     }
+}
+.ourTeam .heading-side h6{
+    color: var(--pages-orange);
+    font-size: 18px;
+    background-image: url(../../images/ext-orange.png);
+    width: 170px;
+    padding: 3px 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.ourTeam .heading-side{
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
 }

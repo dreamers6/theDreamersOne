@@ -3,7 +3,6 @@ import React from 'react'
 import pic1 from "../../images/pic-1.jpg"
 import pic2 from "../../images/pic-2.jpg"
 import pic3 from "../../images/pic-3.jpg"
-import "./aboutusFirstSection.css"
 import img1 from "../../images/wave-orange.png"
 import img2 from "../../images/circle-small-blue.png"
 import img3 from "../../images/line-circle-blue.png"

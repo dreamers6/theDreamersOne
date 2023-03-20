@@ -33,7 +33,7 @@ function App() {
                     <Route path='/blogs' element={<Blogs />} />
                     <Route path='/about' element={<OurTeam/>} />
             </Routes>    
-            <Booking /> 
+            {/* <Booking />  */}
             {/* <Login /> */}
             {/* <Register /> */}
             {/* <ForgotP /> */}
